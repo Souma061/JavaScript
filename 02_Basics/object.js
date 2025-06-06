@@ -45,7 +45,7 @@ const obj2 = {3 : "b" , 4 : "a"}
 // console.log(obj3 == obj1);
 
 const obj3 = {...obj1 , ...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 
 
@@ -60,6 +60,18 @@ const returnedTarget = Object.assign(target, source);
 
 // console.log(returnedTarget === target);
 // Expected output: true
+
+const student = {
+    student_name : "Soumabrata",
+    student_age : 20,
+    student_roll : 20240061
+}
+
+const {student_name : s_name} = student
+
+console.log(s_name);
+
+
 
 
  

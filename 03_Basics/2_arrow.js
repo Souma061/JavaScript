@@ -50,3 +50,4 @@ console.log(add(3 , 4)); // output { username: 'souma' }
 
 
 
+console.log(add(3 , 4).username); // output souma

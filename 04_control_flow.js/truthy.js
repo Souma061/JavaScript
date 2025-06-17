@@ -145,3 +145,5 @@ if(Object.keys(emptyObj).length === 0) {
 // ""	empty string	""
 // 0	number zero	0
 // false	boolean false	false
+
+console.log(1 + true + "3");
